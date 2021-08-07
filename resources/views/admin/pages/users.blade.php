@@ -10,7 +10,7 @@
             @endif
             <div class="card">
                 <div class="card-body">
-                    <table id="datatable" class="table table-bordered dt-responsive  nowrap w-100">
+                    <table id="datatable" class="table table-bordered dt-responsive nowrap w-100 text-center">
                         <thead>
                             <tr>
                                 <th>sl</th>
@@ -31,7 +31,7 @@
                                     <form action="{{route('user.delete', $user->id)}}" method="POST">
                                         @csrf
                                         @method('delete')
-                                        <a href="{{ route('user.delete', $user->id)}}" onclick="event.preventDefault(); this.closest('form').submit();" class="btn btn-danger btn-sm">Delete</a>
+                                        <a href="{{ route('user.delete', $user->id)}}" onclick="event.preventDefault(); this.closest('form').submit();"><i class="fas fa-trash delete"></i></a>
                                     </form>
                                 </td>
                             </tr>

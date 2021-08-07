@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-lg-4 offset-lg-4 text-center">
                 <div class="section-heading">
-                    <h6>Klassy Week</h6>
-                    <h2>This Weekâ€™s Special Meal Offers</h2>
+                    <h6>Green Chilli Week</h6>
+                    <h2>This Week's Special Meal Offers</h2>
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@
                                                         <h4>Fresh Chicken Salad</h4>
                                                         <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         <div class="price">
-                                                            <h6>$10.50</h6>
+                                                            <h6>Tk 320</h6>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -47,7 +47,7 @@
                                                         <h4>Orange Juice</h4>
                                                         <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         <div class="price">
-                                                            <h6>$8.50</h6>
+                                                            <h6>Tk 120</h6>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -57,7 +57,7 @@
                                                         <h4>Fruit Salad</h4>
                                                         <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         <div class="price">
-                                                            <h6>$9.90</h6>
+                                                            <h6>Tk 200</h6>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -73,7 +73,7 @@
                                                         <h4>Eggs Omelette</h4>
                                                         <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         <div class="price">
-                                                            <h6>$6.50</h6>
+                                                            <h6>Tk 50</h6>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -83,7 +83,7 @@
                                                         <h4>Dollma Pire</h4>
                                                         <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         <div class="price">
-                                                            <h6>$5.00</h6>
+                                                            <h6>Tk 90</h6>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -93,7 +93,7 @@
                                                         <h4>Omelette & Cheese</h4>
                                                         <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         <div class="price">
-                                                            <h6>$4.10</h6>
+                                                            <h6>Tk 410</h6>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -113,7 +113,7 @@
                                                         <h4>Eggs Omelette</h4>
                                                         <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         <div class="price">
-                                                            <h6>$14</h6>
+                                                            <h6>Tk 50</h6>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -123,7 +123,7 @@
                                                         <h4>Dollma Pire</h4>
                                                         <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         <div class="price">
-                                                            <h6>$18</h6>
+                                                            <h6>Tk 90</h6>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -133,7 +133,7 @@
                                                         <h4>Omelette & Cheese</h4>
                                                         <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         <div class="price">
-                                                            <h6>$22</h6>
+                                                            <h6>Tk 410</h6>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -149,7 +149,7 @@
                                                         <h4>Fresh Chicken Salad</h4>
                                                         <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         <div class="price">
-                                                            <h6>$10</h6>
+                                                            <h6>Tk 320</h6>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -159,7 +159,7 @@
                                                         <h4>Orange Juice</h4>
                                                         <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         <div class="price">
-                                                            <h6>$20</h6>
+                                                            <h6>Tk 120</h6>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -169,7 +169,7 @@
                                                         <h4>Fruit Salad</h4>
                                                         <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         <div class="price">
-                                                            <h6>$30</h6>
+                                                            <h6>Tk 200</h6>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -189,7 +189,7 @@
                                                         <h4>Eggs Omelette</h4>
                                                         <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         <div class="price">
-                                                            <h6>$14</h6>
+                                                            <h6>Tk 50</h6>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -199,7 +199,7 @@
                                                         <h4>Orange Juice</h4>
                                                         <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         <div class="price">
-                                                            <h6>$18</h6>
+                                                            <h6>Tk 90</h6>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -209,7 +209,7 @@
                                                         <h4>Fruit Salad</h4>
                                                         <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         <div class="price">
-                                                            <h6>$10</h6>
+                                                            <h6>Tk 200</h6>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -225,7 +225,7 @@
                                                         <h4>Fresh Chicken Salad</h4>
                                                         <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         <div class="price">
-                                                            <h6>$8.50</h6>
+                                                            <h6>Tk 320</h6>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -235,7 +235,7 @@
                                                         <h4>Dollma Pire</h4>
                                                         <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         <div class="price">
-                                                            <h6>$9</h6>
+                                                            <h6>Tk 90</h6>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -245,7 +245,7 @@
                                                         <h4>Omelette & Cheese</h4>
                                                         <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         <div class="price">
-                                                            <h6>$11</h6>
+                                                            <h6>Tk 410</h6>
                                                         </div>
                                                     </div>
                                                 </div>

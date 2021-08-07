@@ -39,12 +39,12 @@
                                 {{-- <td>{{$food->status == 1 ? "Published" : 'Unpublished'}}</td> --}}
 
 
-                                <td>
-                                    <a href="{{ route('foods.edit', $food->id)}}" class="btn btn-info btn-sm">Edit</a>
+                                <td class="action">
+                                    <a href="{{ route('foods.edit', $food->id)}}"><i class="fas fa-pen-square edit"></i></a>
                                     <form action="{{route('foods.delete', $food->id)}}" method="POST">
                                         @csrf
                                         @method('delete')
-                                        <a href="{{ route('foods.delete', $food->id)}}" onclick="event.preventDefault(); this.closest('form').submit();" class="btn btn-danger btn-sm">Delete</a>
+                                        <a href="{{ route('foods.delete', $food->id)}}" onclick="event.preventDefault(); this.closest('form').submit();"><i class="fas fa-trash delete"></i></a>
                                     </form>
 
                                 </td>

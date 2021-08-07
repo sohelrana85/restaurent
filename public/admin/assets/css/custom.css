@@ -1,0 +1,19 @@
+i.info {
+    font-size: 20px;
+    color: #f7bd00;
+}
+i.edit {
+    font-size: 20px;
+    color: #008ed2;
+}
+i.delete {
+    font-size: 20px;
+    color: #ff4b4b;
+}
+td.action{
+    text-align: center;
+    vertical-align: middle;
+}
+td.action > a, td.action > form{
+    display: inline;
+}

@@ -4,8 +4,8 @@
             <div class="col-lg-4">
                 <div class="left-content">
                     <div class="inner-content">
-                        <h4>KlassyCafe</h4>
-                        <h6>THE BEST EXPERIENCE</h6>
+                        <h4 style="margin: 0px -40px !important;">Red Chilli</h4>
+                        <h6 style="text-align: center;margin: 0px -40px !important;">THE BEST EXPERIENCE</h6>
                         <div class="main-white-button scroll-to-section">
                             <a href="#reservation">Make A Reservation</a>
                         </div>

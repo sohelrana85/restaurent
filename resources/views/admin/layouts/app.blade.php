@@ -12,11 +12,15 @@
     <link rel="stylesheet" type="text/css" href="{{asset('admin')}}/assets/libs/toastr/build/toastr.min.css">
     <!-- Bootstrap Css -->
     <link href="{{asset('admin')}}/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- Fontawesome Css -->
+    <link href="{{asset('admin')}}/assets/css/fontawesome.min.css" rel="stylesheet" type="text/css" />
     <!-- Icons Css -->
     <link href="{{asset('admin')}}/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <!-- App Css-->
     <link href="{{asset('admin')}}/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
     @stack('css')
+    <!-- Custom Css-->
+    <link href="{{asset('admin')}}/assets/css/custom.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body data-sidebar="dark">

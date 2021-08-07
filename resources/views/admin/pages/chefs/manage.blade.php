@@ -29,8 +29,8 @@
                                 <td>{{ $chef->speciality}}</td>
                                 <td><img src="{{asset('chefs_image')."/".$chef->image}}" alt="{{$chef->image}}" style="width: 80px"></td>
                                 <td class="{{ ($chef->status == 'active') ? 'text-success' : 'text-danger'}}">{{ $chef->status}}</td>
-                                <td>
-                                    <a href="{{ route('chefs.edit', $chef->id)}}" class="btn btn-info btn-sm">Edit</a>
+                                <td class="action">
+                                    <a href="{{ route('chefs.edit', $chef->id)}}"><i class="fas fa-pen-square edit"></i></a>
 
                                 </td>
                             </tr>

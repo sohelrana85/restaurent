@@ -4,10 +4,10 @@
             <div class="col-lg-4 col-xs-12">
                 <div class="right-text-content">
                     <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -18,9 +18,10 @@
             </div>
             <div class="col-lg-4 col-xs-12">
                 <div class="left-text-content">
-                    <p>Â© Copyright Klassy Cafe Co.
+                    <p>© Copyright at Green Chilli Ltd.
 
-                        <br>Design: TemplateMo</p>
+                        <br>Design & Develop by: <a style="color:white;font-weight: 600;
+                        text-decoration: underline !important;" href="http://www.sohelrababd.com">Sohel Rana</a></p>
                 </div>
             </div>
         </div>

@@ -15,9 +15,9 @@
                     <div class="thumb">
                         <div class="overlay"></div>
                         <ul class="social-icons">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                         </ul>
                         <img src="{{asset('chefs_image').'/'.$chef->image}}" alt="{{$chef->image}}">
                     </div>

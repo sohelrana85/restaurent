@@ -30,9 +30,16 @@
                             </form>
                         </li>
                         <li>
-                            <button class="menu-button" onclick="window.location.href='/login'">Cart [ 2 ]</button></li>
+                            <button class="menu-button" onclick="window.location.href='/Show-Cart'">
+                                <i style="position: relative" class="fas fa-cart-plus reload-count">
+                                    @if($cartItemCount != 0)
+                                    <span class="shopping-cart">{{$cartItemCount ? $cartItemCount : 0}}</span>
+                                    @endif
+                                </i>
+                            </button>
+                        </li>
                         @else
-                        <li><button class="menu-button" onclick="window.location.href='/login'">Log in</button></li>
+                        <li><button class="menu-button" data-toggle="modal" data-target="#staticBackdrop">Log in</button></li>
                         @endauth
                     </ul>
                     <a class='menu-trigger'>

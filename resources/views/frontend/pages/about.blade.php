@@ -7,7 +7,8 @@
                         <h6>About Us</h6>
                         <h2>We Leave A Delicious Memory For You</h2>
                     </div>
-                    <p>Klassy Cafe is one of the best <a href="https://templatemo.com/tag/restaurant" target="_blank" rel="sponsored">restaurant HTML templates</a> with Bootstrap v4.5.2 CSS framework. You can download and feel free to use this website template layout for your restaurant business. You are allowed to use this template for commercial purposes. <br><br>You are NOT allowed to redistribute the template ZIP file on any template donwnload website. Please contact us for more information.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eaque nam veniam fugiat neque nihil cupiditate, saepe consectetur ad natus iusto autem assumenda quod harum dolor, ratione tempora. Corrupti, neque.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ad eum laudantium atque ducimus ea et quam accusamus error quaerat animi quis voluptates, veritatis, ratione tempora. Corrupti, neque.</p>
                     <div class="row">
                         <div class="col-4">
                             <img src="assets/images/about-thumb-01.jpg" alt="">

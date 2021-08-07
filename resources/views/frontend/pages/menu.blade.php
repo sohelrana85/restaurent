@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <div class="row w-100" style="margin: 0px; position: absolute; bottom:0px;">
-                    <div class="col-6 border py-1" style="text-align: center; background: #fb5849">
+                    <div class="col-6 border py-1" style="text-align: center; background: #ff0000">
                         <p style="color: #fff">Tk {{number_format($food->price)}}</p>
                     </div>
                     <div class="col-6 border py-1 food-cart" id="{{$food->id}}">
