@@ -5,82 +5,38 @@
 <div class="container-fluid">
 
     <div class="row">
-        <div class="col-xl-4">
-            <div class="card overflow-hidden">
-                <div class="bg-primary bg-soft">
-                    <div class="row">
-                        <div class="col-7">
-                            <div class="text-primary p-3">
-                                <h5 class="text-primary">Welcome Back !</h5>
-                                <p>Skote Dashboard</p>
-                            </div>
-                        </div>
-                        <div class="col-5 align-self-end">
-                            <img src="{{ asset('admin')}}/assets/images/profile-img.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-                <div class="card-body pt-0">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class="avatar-md profile-user-wid mb-4">
-                                <img src="{{ asset('admin')}}/assets/images/users/avatar-1.jpg" alt="" class="img-thumbnail rounded-circle">
-                            </div>
-                            <h5 class="font-size-15 text-truncate">Henry Price</h5>
-                            <p class="text-muted mb-0 text-truncate">UI/UX Designer</p>
-                        </div>
-
-                        <div class="col-sm-8">
-                            <div class="pt-4">
-
-                                <div class="row">
-                                    <div class="col-6">
-                                        <h5 class="font-size-15">125</h5>
-                                        <p class="text-muted mb-0">Projects</p>
-                                    </div>
-                                    <div class="col-6">
-                                        <h5 class="font-size-15">$1245</h5>
-                                        <p class="text-muted mb-0">Revenue</p>
-                                    </div>
-                                </div>
-                                <div class="mt-4">
-                                    <a href="#" class="btn btn-primary waves-effect waves-light btn-sm">View Profile <i class="mdi mdi-arrow-right ms-1"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-8">
+        <div class="col-xl-12">
+            {{-- Order Details --}}
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="card mini-stats-wid">
                         <div class="card-body">
-                            <div class="d-flex">
-                                <div class="flex-grow-1">
-                                    <p class="text-muted fw-medium">Orders</p>
-                                    <h4 class="mb-0">1,235</h4>
-                                </div>
+                            <a href="">
+                                <div class="d-flex">
+                                    <div class="flex-grow-1">
+                                        <p class="text-muted fw-medium">Orders Today</p>
+                                        <h4 class="mb-0">235</h4>
+                                    </div>
 
-                                <div class="flex-shrink-0 align-self-center">
-                                    <div class="mini-stat-icon avatar-sm rounded-circle bg-primary align-self-center">
-                                        <span class="avatar-title">
-                                            <i class="bx bx-copy-alt font-size-24"></i>
-                                        </span>
+                                    <div class="flex-shrink-0 align-self-center">
+                                        <div class="mini-stat-icon avatar-sm rounded-circle bg-primary align-self-center">
+                                            <span class="avatar-title">
+                                                <i class="bx bx-copy-alt font-size-24"></i>
+                                            </span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="card mini-stats-wid">
                         <div class="card-body">
                             <div class="d-flex">
                                 <div class="flex-grow-1">
-                                    <p class="text-muted fw-medium">Revenue</p>
-                                    <h4 class="mb-0">$35, 723</h4>
+                                    <p class="text-muted fw-medium">Total Sales (Tk)</p>
+                                    <h4 class="mb-0">Tk 35,723</h4>
                                 </div>
 
                                 <div class="flex-shrink-0 align-self-center">
@@ -94,13 +50,117 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="card mini-stats-wid">
                         <div class="card-body">
                             <div class="d-flex">
                                 <div class="flex-grow-1">
-                                    <p class="text-muted fw-medium">Average Price</p>
-                                    <h4 class="mb-0">$16.2</h4>
+                                    <p class="text-muted fw-medium">Pending Orders</p>
+                                    <h4 class="mb-0">62</h4>
+                                </div>
+
+                                <div class="flex-shrink-0 align-self-center">
+                                    <div class="avatar-sm rounded-circle bg-primary align-self-center mini-stat-icon">
+                                        <span class="avatar-title rounded-circle bg-primary">
+                                            <i class="bx bx-purchase-tag-alt font-size-24"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mini-stats-wid">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div class="flex-grow-1">
+                                    <p class="text-muted fw-medium">Order Cancell</p>
+                                    <h4 class="mb-0">16</h4>
+                                </div>
+
+                                <div class="flex-shrink-0 align-self-center">
+                                    <div class="avatar-sm rounded-circle bg-primary align-self-center mini-stat-icon">
+                                        <span class="avatar-title rounded-circle bg-primary">
+                                            <i class="bx bx-purchase-tag-alt font-size-24"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {{-- Reservation --}}
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card mini-stats-wid">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div class="flex-grow-1">
+                                    <p class="text-muted fw-medium">Reservation Today</p>
+                                    <h4 class="mb-0">25</h4>
+                                </div>
+
+                                <div class="flex-shrink-0 align-self-center">
+                                    <div class="mini-stat-icon avatar-sm rounded-circle bg-primary align-self-center">
+                                        <span class="avatar-title">
+                                            <i class="bx bx-copy-alt font-size-24"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mini-stats-wid">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div class="flex-grow-1">
+                                    <p class="text-muted fw-medium">Reservation Cancelled</p>
+                                    <h4 class="mb-0">3</h4>
+                                </div>
+
+                                <div class="flex-shrink-0 align-self-center">
+                                    <div class="avatar-sm rounded-circle bg-primary align-self-center mini-stat-icon">
+                                        <span class="avatar-title rounded-circle bg-primary">
+                                            <i class="bx bx-archive-in font-size-24"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mini-stats-wid">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div class="flex-grow-1">
+                                    <p class="text-muted fw-medium">Todays User Sign Up</p>
+                                    <h4 class="mb-0">62</h4>
+                                </div>
+
+                                <div class="flex-shrink-0 align-self-center">
+                                    <div class="avatar-sm rounded-circle bg-primary align-self-center mini-stat-icon">
+                                        <span class="avatar-title rounded-circle bg-primary">
+                                            <i class="bx bx-purchase-tag-alt font-size-24"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mini-stats-wid">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div class="flex-grow-1">
+                                    <p class="text-muted fw-medium">Total User Sign Up</p>
+                                    <h4 class="mb-0">1645</h4>
                                 </div>
 
                                 <div class="flex-shrink-0 align-self-center">
@@ -117,7 +177,7 @@
             </div>
             <!-- end row -->
 
-            <div class="card">
+            {{-- <div class="card">
                 <div class="card-body">
                     <div class="d-sm-flex flex-wrap">
                         <h4 class="card-title mb-4">Email Sent</h4>
@@ -138,7 +198,7 @@
 
                     <div id="stacked-column-chart" class="apex-charts" dir="ltr"></div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
     <!-- end row -->

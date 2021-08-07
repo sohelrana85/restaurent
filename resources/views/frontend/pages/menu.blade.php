@@ -29,12 +29,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="row w-100" style="margin: 0px; position: absolute; bottom:0px;">
-                    <div class="col-6 border py-1" style="text-align: center; background: #ff0000">
-                        <p style="color: #fff">Tk {{number_format($food->price)}}</p>
+                <div class="row w-100 menu-price-cart">
+                    <div class="col-6 border py-1 food-price">
+                        <p>Tk {{number_format($food->price)}}</p>
                     </div>
                     <div class="col-6 border py-1 food-cart" id="{{$food->id}}">
-                        <i style="color: #fff" class="fas fa-cart-plus"></i>
+                        <i class="fas fa-cart-plus"></i>
                     </div>
 
                 </div>

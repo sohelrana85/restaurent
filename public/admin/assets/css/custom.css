@@ -17,3 +17,7 @@ td.action{
 td.action > a, td.action > form{
     display: inline;
 }
+
+.mini-stats-wid .card-body:hover{
+    background: #e4e4e4;
+}

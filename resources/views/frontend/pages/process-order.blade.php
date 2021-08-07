@@ -162,8 +162,8 @@
                                         </td>
                                         <td>
                                             <div class="form-check form-check-inline">
-                                                <input type="radio" class="form-check-input" name="payment_method" value="Cash" id="Cash">
-                                                <label class="form-check-label" for="Cash">Cash</label>
+                                                <input type="radio" class="form-check-input" name="payment_method" value="COD" id="Cash">
+                                                <label class="form-check-label" for="Cash">COD</label>
                                             </div>
                                             <div class="form-check form-check-inline">
                                                 <input type="radio" class="form-check-input" name="payment_method" value="Card" id="Card">

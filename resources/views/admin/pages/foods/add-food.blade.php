@@ -42,7 +42,7 @@
                             </div>
                         </div>
                         <div class="row mb-4">
-                            <label for="image" class="col-sm-3 col-form-label">Image</label>
+                            <label for="image" class="col-sm-3 col-form-label">Image <small>[w:284 x h:400]</small></label>
                             <div class="col-sm-9">
                                 <input type="file" class="form-control @error('image') is-invalid @enderror" id="image" name="image">
                                 @error('image') <p class="alert m-0 p-0 text-danger">{{ $message}}</p> @enderror
