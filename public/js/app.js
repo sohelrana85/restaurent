@@ -18001,7 +18001,8 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
   data: function data() {
     return {
       cartItems: [],
-      link: "/Precess-Order"
+      link: "/Precess-Order",
+      url: "http://restaurant.sohelranabd.com/public"
     };
   },
   mounted: function mounted() {
@@ -18203,14 +18204,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("tr", {
       key: item.id
     }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("td", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
-      src: 'food_image/' + item.attributes.image,
-      alt: "",
+      src: '/food_image/' + item.attributes.image,
+      alt: item.attributes.image,
       style: {
         "width": "70px"
       }
     }, null, 8
     /* PROPS */
-    , ["src"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.name), 1
+    , ["src", "alt"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("td", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.name), 1
     /* TEXT */
     ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("td", null, "Tk " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.price), 1
     /* TEXT */

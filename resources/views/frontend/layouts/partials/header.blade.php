@@ -5,7 +5,7 @@
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="{{route('home')}}" class="logo">
-                        <img src="assets/images/klassy-logo.png">
+                        <img src="{{ asset('')}}assets/images/klassy-logo.png">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->

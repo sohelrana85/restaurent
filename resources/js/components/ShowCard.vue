@@ -22,8 +22,8 @@
 								<tr v-for="item in cartItems" :key="item.id">
 									<td>
 										<img
-											:src="'food_image/' + item.attributes.image"
-											alt=""
+											:src="'/food_image/' + item.attributes.image"
+											:alt="item.attributes.image"
 											style="width: 70px"
 										/>
 									</td>
@@ -75,6 +75,7 @@ export default {
 		return {
 			cartItems: [],
 			link: "/Precess-Order",
+			url: "http://restaurant.sohelranabd.com/public",
 		};
 	},
 	mounted() {

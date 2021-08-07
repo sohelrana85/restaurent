@@ -13,12 +13,12 @@
             </div>
             <div class="col-lg-4">
                 <div class="logo">
-                    <a href="index.html"><img src="assets/images/white-logo.png" alt=""></a>
+                    <a href="index.html"><img src="{{ asset('')}}assets/images/white-logo.png" alt=""></a>
                 </div>
             </div>
             <div class="col-lg-4 col-xs-12">
                 <div class="left-text-content">
-                    <p>© Copyright at Green Chilli Ltd.
+                    <p>© Copyright at Red Chilli Ltd.
 
                         <br>Design & Develop by: <a style="color:white;font-weight: 600;
                         text-decoration: underline !important;" href="http://www.sohelrababd.com">Sohel Rana</a></p>

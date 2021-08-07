@@ -15,7 +15,7 @@
             <div class="owl-menu-item owl-carousel">
                 @foreach ($foods as $food)
                 <div class="item" style=" position: relative">
-                    <div class='card' style="background-image: url('/food_image/{{$food->image}}')">
+                    <div class='card' style="background-image: url('{{asset('')}}food_image/{{$food->image}}')">
                         {{-- <div class="price">
                             <h6>Tk{{number_format($food->price)}}</h6>
                     </div> --}}

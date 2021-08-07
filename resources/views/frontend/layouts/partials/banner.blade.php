@@ -18,21 +18,21 @@
                         <!-- Item -->
                         <div class="item">
                             <div class="img-fill">
-                                <img src="assets/images/slide-01.jpg" alt="">
+                                <img src="{{ asset('')}}assets/images/slide-01.jpg" alt="">
                             </div>
                         </div>
                         <!-- // Item -->
                         <!-- Item -->
                         <div class="item">
                             <div class="img-fill">
-                                <img src="assets/images/slide-02.jpg" alt="">
+                                <img src="{{ asset('')}}assets/images/slide-02.jpg" alt="">
                             </div>
                         </div>
                         <!-- // Item -->
                         <!-- Item -->
                         <div class="item">
                             <div class="img-fill">
-                                <img src="assets/images/slide-03.jpg" alt="">
+                                <img src="{{ asset('')}}assets/images/slide-03.jpg" alt="">
                             </div>
                         </div>
                         <!-- // Item -->
