@@ -77,6 +77,10 @@ Route::middleware('auth')->group(function(){
     Route::get('/Precess-Order', [CartController::class, 'process_order'])->name('process.order');
     Route::post('/Confirm-Order', [CartController::class, 'confirm_order'])->name('confirm.order');
     Route::get('/Confirm-Message', [CartController::class, 'confirm_message'])->name('confirm.message');
+
+    #vue request route for data
+    Route::get('/card-data', [CartController::class, 'card_data']);
+    Route::post('/update-cart-data', [CartController::class, 'update_card_data']);
 });
 
 

@@ -87,9 +87,90 @@
 
     <div style="min-height: 120px;"></div>
 
+    <div id="example"></div>
 
-    <div class="main-content" id="example">
-
+    <div class="main-content">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h6>Show Cart Item:</h6>
+                        </div>
+                        <div class="card-body">
+                            <table class="table table-bordered text-center" style=" font-size:14px">
+                                <thead>
+                                    <tr>
+                                        {{-- <th>Sl</th> --}}
+                                        <th style="width: 20%;">Photo</th>
+                                        <th style="width: 30%;">Food Name</th>
+                                        <th style="width: 15%;">Price</th>
+                                        <th style="width: 15%;">Quantity</th>
+                                        <th style="width: 15%;">Total</th>
+                                        <th style="width: 10%;">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach ($cartItemCount as $item)
+                                    <tr>
+                                        {{-- <td>{{ ++$loop->index}}</td> --}}
+                                        <td><img src="{{ asset('food_image/'.$item->attributes->image)}}" alt="$item->attributes->image}}" style="width: 70px;"></td>
+                                        <td>{{ $item->name}}</td>
+                                        <td>Tk {{ $item->price}}</td>
+                                        <td>
+                                            <form action="{{route('update.qty')}}" method="POST">
+                                                @csrf
+                                                <div class="input-group">
+                                                    <input type="hidden" name="id" value="{{$item->id}}">
+                                                    <input type="number" name="quantity" class="form-control" value="{{ $item->quantity}}">
+                                                    <div class="input-group-append">
+                                                        <button type="submit" class="input-group-text" id="btnGroupAddon">
+                                                            <i class="fas fa-sync-alt"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </td>
+                                        {{-- <td>
+                                                <input type="number" name="quantity" class="form-control" value="{{ $item->quantity}}">
+                                        </td> --}}
+                                        <td>Tk {{ $item->price*$item->quantity}}</td>
+                                        <td class="d-flex justify-content-between">
+                                            <form action="{{ route('remove.item', $item->id)}}" method="GET">
+                                                @csrf
+                                                <button type="submit" class="btn btn-sm btn-danger m-1"><i class="fas fa-trash"></i></button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                    @endforeach
+                                </tbody>
+                                <tfoot class="font-weight-bold">
+                                    <tr>
+                                        <td colspan="4" style="text-align: right">Total = </td>
+                                        <td>Tk {{ \Cart::getSubTotal() }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4" style="text-align: right">VAT = </td>
+                                        <td>Tk {{ \Cart::getSubTotal()*.15 }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4" style="text-align: right">Delivery Charge = </td>
+                                        <td>Tk 60</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4" style="text-align: right">Sub Total = </td>
+                                        <td>Tk {{ (\Cart::getSubTotal()+(\Cart::getSubTotal()*.15))+60}}</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                            <div style="text-align: center">
+                                <a href="{{ route('process.order')}}" class="btn btn-danger">Process My Order</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- ***** Footer Start ***** -->

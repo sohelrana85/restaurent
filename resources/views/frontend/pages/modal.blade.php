@@ -31,6 +31,10 @@
                     <button type="submit" class="btn" style="background-color: #ff0000; color:white">LOG IN</button>
                 </div>
             </form>
+            <div class="p-2 border-top">
+                <p class="text-center text-info">Admin: admin@gmail.com | 12345678</p>
+                <p class="text-center text-info">Customer: user@gmail.com | 12345678</p>
+            </div>
         </div>
     </div>
 </div>

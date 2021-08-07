@@ -69,6 +69,7 @@ class CartController extends Controller
         } else{
             return view('frontend.pages.show-cart', compact('cartItemCount','foods'));
         }
+
     }
 
 
@@ -168,5 +169,44 @@ class CartController extends Controller
         $cartItems = \Cart::session($userId)->getContent();
 
         return view('frontend.pages.confirm-message',compact('cartItems'));
+    }
+
+
+
+
+
+
+
+
+    // vue request
+    public function card_data()
+    {
+        $userId = Auth::id();
+        $cartItemCount = \Cart::session($userId)->getContent()->sort();
+
+        return response()->json([
+            'status' => 'success',
+            'data' => $cartItemCount
+        ]);
+    }
+
+    public function update_card_data(Request $request)
+    {
+        $data = $request->all();
+        $userId = auth()->user()->id; // or any string represents user identifier
+        foreach ($data as $value) {
+            foreach ($value as $item) {
+                \Cart::session($userId)->update($item['id'], array(
+                    'quantity' => array(
+                        'relative' => false,
+                        'value' => $item['quantity']
+                    ),
+                ));
+            }
+        }
+        return response()->json([
+            'status' => 'success',
+            'message' => 'status updated'
+        ]);
     }
 }
