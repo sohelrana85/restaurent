@@ -21,7 +21,7 @@
                     <p>© Copyright at Red Chilli Ltd.
 
                         <br>Design & Develop by: <a style="color:white;font-weight: 600;
-                        text-decoration: underline !important;" href="http://www.sohelrababd.com">Sohel Rana</a></p>
+                        text-decoration: underline !important;" href="http://www.sohelranabd.com">Sohel Rana</a></p>
                 </div>
             </div>
         </div>

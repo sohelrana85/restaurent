@@ -9,7 +9,7 @@
 
     <title>Red Chilli</title>
     {{-- Toastr --}}
-    <link rel="stylesheet" href="{{asset('')}}assets/css/toastr.min.css'">
+    <link rel="stylesheet" href="{{asset('')}}assets/css/toastr.min.css">
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="{{ asset('')}}assets/css/bootstrap.min.css">
     {{-- <link rel="stylesheet" type="text/css" href="{{ asset('')}}assets/css/font-awesome.css"> --}}
@@ -65,7 +65,6 @@
     <script src="{{ asset('')}}assets/js/lightbox.js"></script>
     <script src="{{ asset('')}}assets/js/isotope.js"></script>
     <!-- toastr plugin -->
-    {{-- <script src="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script> --}}
     <script src="{{ asset('')}}assets/js/toastr.min.js"></script>
 
     <!-- Global Init -->

@@ -8,7 +8,7 @@
 
     <title>Green Chilli</title>
     {{-- Toastr --}}
-    <link rel="stylesheet" href="{{asset('assets/css/toastr.min.css')}}">
+    <link rel="stylesheet" href="{{asset('')}}assets/css/toastr.min.css">
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="{{ asset('')}}assets/css/bootstrap.min.css">
     {{-- <link rel="stylesheet" type="text/css" href="{{ asset('')}}assets/css/font-awesome.css"> --}}
